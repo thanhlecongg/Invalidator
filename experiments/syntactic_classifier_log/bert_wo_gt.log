@@ -1,0 +1,413 @@
+====================================================================================================
+Training...
+====================================================================================================
+[Threshold Tuning]
+[Threshold:0.005]
+===> TP: 58 -- TN: 1 -- FP: 15 -- FN: 1 F1 0.878788
+[Threshold:0.01]
+===> TP: 58 -- TN: 1 -- FP: 15 -- FN: 1 F1 0.878788
+[Threshold:0.015]
+===> TP: 56 -- TN: 1 -- FP: 15 -- FN: 3 F1 0.861538
+[Threshold:0.02]
+===> TP: 56 -- TN: 1 -- FP: 15 -- FN: 3 F1 0.861538
+[Threshold:0.025]
+===> TP: 56 -- TN: 1 -- FP: 15 -- FN: 3 F1 0.861538
+[Threshold:0.03]
+===> TP: 56 -- TN: 3 -- FP: 13 -- FN: 3 F1 0.875000
+[Threshold:0.035]
+===> TP: 56 -- TN: 3 -- FP: 13 -- FN: 3 F1 0.875000
+[Threshold:0.04]
+===> TP: 56 -- TN: 3 -- FP: 13 -- FN: 3 F1 0.875000
+[Threshold:0.045]
+===> TP: 56 -- TN: 3 -- FP: 13 -- FN: 3 F1 0.875000
+[Threshold:0.05]
+===> TP: 56 -- TN: 3 -- FP: 13 -- FN: 3 F1 0.875000
+[Threshold:0.055]
+===> TP: 56 -- TN: 3 -- FP: 13 -- FN: 3 F1 0.875000
+[Threshold:0.06]
+===> TP: 55 -- TN: 3 -- FP: 13 -- FN: 4 F1 0.866142
+[Threshold:0.065]
+===> TP: 54 -- TN: 4 -- FP: 12 -- FN: 5 F1 0.864000
+[Threshold:0.07]
+===> TP: 53 -- TN: 4 -- FP: 12 -- FN: 6 F1 0.854839
+[Threshold:0.075]
+===> TP: 53 -- TN: 5 -- FP: 11 -- FN: 6 F1 0.861789
+[Threshold:0.08]
+===> TP: 52 -- TN: 5 -- FP: 11 -- FN: 7 F1 0.852459
+[Threshold:0.085]
+===> TP: 52 -- TN: 5 -- FP: 11 -- FN: 7 F1 0.852459
+[Threshold:0.09]
+===> TP: 52 -- TN: 6 -- FP: 10 -- FN: 7 F1 0.859504
+[Threshold:0.095]
+===> TP: 52 -- TN: 6 -- FP: 10 -- FN: 7 F1 0.859504
+[Threshold:0.1]
+===> TP: 52 -- TN: 6 -- FP: 10 -- FN: 7 F1 0.859504
+[Threshold:0.105]
+===> TP: 52 -- TN: 6 -- FP: 10 -- FN: 7 F1 0.859504
+[Threshold:0.11]
+===> TP: 52 -- TN: 6 -- FP: 10 -- FN: 7 F1 0.859504
+[Threshold:0.115]
+===> TP: 51 -- TN: 6 -- FP: 10 -- FN: 8 F1 0.850000
+[Threshold:0.12]
+===> TP: 51 -- TN: 6 -- FP: 10 -- FN: 8 F1 0.850000
+[Threshold:0.125]
+===> TP: 51 -- TN: 6 -- FP: 10 -- FN: 8 F1 0.850000
+[Threshold:0.13]
+===> TP: 51 -- TN: 6 -- FP: 10 -- FN: 8 F1 0.850000
+[Threshold:0.135]
+===> TP: 51 -- TN: 6 -- FP: 10 -- FN: 8 F1 0.850000
+[Threshold:0.14]
+===> TP: 51 -- TN: 6 -- FP: 10 -- FN: 8 F1 0.850000
+[Threshold:0.145]
+===> TP: 51 -- TN: 6 -- FP: 10 -- FN: 8 F1 0.850000
+[Threshold:0.15]
+===> TP: 51 -- TN: 7 -- FP: 9 -- FN: 8 F1 0.857143
+[Threshold:0.155]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.16]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.165]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.17]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.175]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.18]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.185]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.19]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.195]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.2]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.205]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.21]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.215]
+===> TP: 51 -- TN: 8 -- FP: 8 -- FN: 8 F1 0.864407
+[Threshold:0.22]
+===> TP: 50 -- TN: 8 -- FP: 8 -- FN: 9 F1 0.854701
+[Threshold:0.225]
+===> TP: 49 -- TN: 8 -- FP: 8 -- FN: 10 F1 0.844828
+[Threshold:0.23]
+===> TP: 49 -- TN: 8 -- FP: 8 -- FN: 10 F1 0.844828
+[Threshold:0.235]
+===> TP: 49 -- TN: 8 -- FP: 8 -- FN: 10 F1 0.844828
+[Threshold:0.24]
+===> TP: 49 -- TN: 8 -- FP: 8 -- FN: 10 F1 0.844828
+[Threshold:0.245]
+===> TP: 49 -- TN: 8 -- FP: 8 -- FN: 10 F1 0.844828
+[Threshold:0.25]
+===> TP: 48 -- TN: 8 -- FP: 8 -- FN: 11 F1 0.834783
+[Threshold:0.255]
+===> TP: 48 -- TN: 8 -- FP: 8 -- FN: 11 F1 0.834783
+[Threshold:0.26]
+===> TP: 48 -- TN: 8 -- FP: 8 -- FN: 11 F1 0.834783
+[Threshold:0.265]
+===> TP: 48 -- TN: 9 -- FP: 7 -- FN: 11 F1 0.842105
+[Threshold:0.27]
+===> TP: 48 -- TN: 9 -- FP: 7 -- FN: 11 F1 0.842105
+[Threshold:0.275]
+===> TP: 48 -- TN: 9 -- FP: 7 -- FN: 11 F1 0.842105
+[Threshold:0.28]
+===> TP: 48 -- TN: 9 -- FP: 7 -- FN: 11 F1 0.842105
+[Threshold:0.285]
+===> TP: 48 -- TN: 9 -- FP: 7 -- FN: 11 F1 0.842105
+[Threshold:0.29]
+===> TP: 48 -- TN: 9 -- FP: 7 -- FN: 11 F1 0.842105
+[Threshold:0.295]
+===> TP: 48 -- TN: 9 -- FP: 7 -- FN: 11 F1 0.842105
+[Threshold:0.3]
+===> TP: 48 -- TN: 9 -- FP: 7 -- FN: 11 F1 0.842105
+[Threshold:0.305]
+===> TP: 47 -- TN: 9 -- FP: 7 -- FN: 12 F1 0.831858
+[Threshold:0.31]
+===> TP: 47 -- TN: 9 -- FP: 7 -- FN: 12 F1 0.831858
+[Threshold:0.315]
+===> TP: 47 -- TN: 9 -- FP: 7 -- FN: 12 F1 0.831858
+[Threshold:0.32]
+===> TP: 47 -- TN: 9 -- FP: 7 -- FN: 12 F1 0.831858
+[Threshold:0.325]
+===> TP: 47 -- TN: 9 -- FP: 7 -- FN: 12 F1 0.831858
+[Threshold:0.33]
+===> TP: 47 -- TN: 9 -- FP: 7 -- FN: 12 F1 0.831858
+[Threshold:0.335]
+===> TP: 47 -- TN: 9 -- FP: 7 -- FN: 12 F1 0.831858
+[Threshold:0.34]
+===> TP: 47 -- TN: 9 -- FP: 7 -- FN: 12 F1 0.831858
+[Threshold:0.345]
+===> TP: 47 -- TN: 10 -- FP: 6 -- FN: 12 F1 0.839286
+[Threshold:0.35]
+===> TP: 47 -- TN: 10 -- FP: 6 -- FN: 12 F1 0.839286
+[Threshold:0.355]
+===> TP: 47 -- TN: 10 -- FP: 6 -- FN: 12 F1 0.839286
+[Threshold:0.36]
+===> TP: 47 -- TN: 10 -- FP: 6 -- FN: 12 F1 0.839286
+[Threshold:0.365]
+===> TP: 47 -- TN: 10 -- FP: 6 -- FN: 12 F1 0.839286
+[Threshold:0.37]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.375]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.38]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.385]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.39]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.395]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.4]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.405]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.41]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.415]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.42]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.425]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.43]
+===> TP: 46 -- TN: 10 -- FP: 6 -- FN: 13 F1 0.828829
+[Threshold:0.435]
+===> TP: 45 -- TN: 10 -- FP: 6 -- FN: 14 F1 0.818182
+[Threshold:0.44]
+===> TP: 45 -- TN: 10 -- FP: 6 -- FN: 14 F1 0.818182
+[Threshold:0.445]
+===> TP: 45 -- TN: 10 -- FP: 6 -- FN: 14 F1 0.818182
+[Threshold:0.45]
+===> TP: 44 -- TN: 10 -- FP: 6 -- FN: 15 F1 0.807339
+[Threshold:0.455]
+===> TP: 44 -- TN: 10 -- FP: 6 -- FN: 15 F1 0.807339
+[Threshold:0.46]
+===> TP: 44 -- TN: 10 -- FP: 6 -- FN: 15 F1 0.807339
+[Threshold:0.465]
+===> TP: 44 -- TN: 10 -- FP: 6 -- FN: 15 F1 0.807339
+[Threshold:0.47]
+===> TP: 44 -- TN: 11 -- FP: 5 -- FN: 15 F1 0.814815
+[Threshold:0.475]
+===> TP: 44 -- TN: 11 -- FP: 5 -- FN: 15 F1 0.814815
+[Threshold:0.48]
+===> TP: 44 -- TN: 11 -- FP: 5 -- FN: 15 F1 0.814815
+[Threshold:0.485]
+===> TP: 44 -- TN: 11 -- FP: 5 -- FN: 15 F1 0.814815
+[Threshold:0.49]
+===> TP: 44 -- TN: 11 -- FP: 5 -- FN: 15 F1 0.814815
+[Threshold:0.495]
+===> TP: 44 -- TN: 11 -- FP: 5 -- FN: 15 F1 0.814815
+[Threshold:0.5]
+===> TP: 44 -- TN: 12 -- FP: 4 -- FN: 15 F1 0.822430
+[Threshold:0.505]
+===> TP: 44 -- TN: 12 -- FP: 4 -- FN: 15 F1 0.822430
+[Threshold:0.51]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.515]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.52]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.525]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.53]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.535]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.54]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.545]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.55]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.555]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.56]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.565]
+===> TP: 43 -- TN: 12 -- FP: 4 -- FN: 16 F1 0.811321
+[Threshold:0.57]
+===> TP: 42 -- TN: 12 -- FP: 4 -- FN: 17 F1 0.800000
+[Threshold:0.575]
+===> TP: 41 -- TN: 12 -- FP: 4 -- FN: 18 F1 0.788462
+[Threshold:0.58]
+===> TP: 41 -- TN: 12 -- FP: 4 -- FN: 18 F1 0.788462
+[Threshold:0.585]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.59]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.595]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.6]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.605]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.61]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.615]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.62]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.625]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.63]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.635]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.64]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.645]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.65]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.655]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.66]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.665]
+===> TP: 40 -- TN: 12 -- FP: 4 -- FN: 19 F1 0.776699
+[Threshold:0.67]
+===> TP: 39 -- TN: 12 -- FP: 4 -- FN: 20 F1 0.764706
+[Threshold:0.675]
+===> TP: 39 -- TN: 12 -- FP: 4 -- FN: 20 F1 0.764706
+[Threshold:0.68]
+===> TP: 38 -- TN: 12 -- FP: 4 -- FN: 21 F1 0.752475
+[Threshold:0.685]
+===> TP: 38 -- TN: 12 -- FP: 4 -- FN: 21 F1 0.752475
+[Threshold:0.69]
+===> TP: 37 -- TN: 12 -- FP: 4 -- FN: 22 F1 0.740000
+[Threshold:0.695]
+===> TP: 37 -- TN: 12 -- FP: 4 -- FN: 22 F1 0.740000
+[Threshold:0.7]
+===> TP: 37 -- TN: 12 -- FP: 4 -- FN: 22 F1 0.740000
+[Threshold:0.705]
+===> TP: 37 -- TN: 12 -- FP: 4 -- FN: 22 F1 0.740000
+[Threshold:0.71]
+===> TP: 36 -- TN: 12 -- FP: 4 -- FN: 23 F1 0.727273
+[Threshold:0.715]
+===> TP: 35 -- TN: 12 -- FP: 4 -- FN: 24 F1 0.714286
+[Threshold:0.72]
+===> TP: 35 -- TN: 12 -- FP: 4 -- FN: 24 F1 0.714286
+[Threshold:0.725]
+===> TP: 35 -- TN: 12 -- FP: 4 -- FN: 24 F1 0.714286
+[Threshold:0.73]
+===> TP: 35 -- TN: 13 -- FP: 3 -- FN: 24 F1 0.721649
+[Threshold:0.735]
+===> TP: 34 -- TN: 13 -- FP: 3 -- FN: 25 F1 0.708333
+[Threshold:0.74]
+===> TP: 34 -- TN: 13 -- FP: 3 -- FN: 25 F1 0.708333
+[Threshold:0.745]
+===> TP: 34 -- TN: 13 -- FP: 3 -- FN: 25 F1 0.708333
+[Threshold:0.75]
+===> TP: 34 -- TN: 13 -- FP: 3 -- FN: 25 F1 0.708333
+[Threshold:0.755]
+===> TP: 34 -- TN: 13 -- FP: 3 -- FN: 25 F1 0.708333
+[Threshold:0.76]
+===> TP: 33 -- TN: 13 -- FP: 3 -- FN: 26 F1 0.694737
+[Threshold:0.765]
+===> TP: 32 -- TN: 13 -- FP: 3 -- FN: 27 F1 0.680851
+[Threshold:0.77]
+===> TP: 32 -- TN: 13 -- FP: 3 -- FN: 27 F1 0.680851
+[Threshold:0.775]
+===> TP: 32 -- TN: 13 -- FP: 3 -- FN: 27 F1 0.680851
+[Threshold:0.78]
+===> TP: 31 -- TN: 13 -- FP: 3 -- FN: 28 F1 0.666667
+[Threshold:0.785]
+===> TP: 30 -- TN: 13 -- FP: 3 -- FN: 29 F1 0.652174
+[Threshold:0.79]
+===> TP: 29 -- TN: 13 -- FP: 3 -- FN: 30 F1 0.637363
+[Threshold:0.795]
+===> TP: 28 -- TN: 13 -- FP: 3 -- FN: 31 F1 0.622222
+[Threshold:0.8]
+===> TP: 28 -- TN: 13 -- FP: 3 -- FN: 31 F1 0.622222
+[Threshold:0.805]
+===> TP: 28 -- TN: 13 -- FP: 3 -- FN: 31 F1 0.622222
+[Threshold:0.81]
+===> TP: 28 -- TN: 14 -- FP: 2 -- FN: 31 F1 0.629213
+[Threshold:0.815]
+===> TP: 27 -- TN: 14 -- FP: 2 -- FN: 32 F1 0.613636
+[Threshold:0.82]
+===> TP: 27 -- TN: 14 -- FP: 2 -- FN: 32 F1 0.613636
+[Threshold:0.825]
+===> TP: 26 -- TN: 14 -- FP: 2 -- FN: 33 F1 0.597701
+[Threshold:0.83]
+===> TP: 26 -- TN: 14 -- FP: 2 -- FN: 33 F1 0.597701
+[Threshold:0.835]
+===> TP: 25 -- TN: 14 -- FP: 2 -- FN: 34 F1 0.581395
+[Threshold:0.84]
+===> TP: 25 -- TN: 14 -- FP: 2 -- FN: 34 F1 0.581395
+[Threshold:0.845]
+===> TP: 25 -- TN: 14 -- FP: 2 -- FN: 34 F1 0.581395
+[Threshold:0.85]
+===> TP: 25 -- TN: 14 -- FP: 2 -- FN: 34 F1 0.581395
+[Threshold:0.855]
+===> TP: 25 -- TN: 14 -- FP: 2 -- FN: 34 F1 0.581395
+[Threshold:0.86]
+===> TP: 25 -- TN: 14 -- FP: 2 -- FN: 34 F1 0.581395
+[Threshold:0.865]
+===> TP: 24 -- TN: 14 -- FP: 2 -- FN: 35 F1 0.564706
+[Threshold:0.87]
+===> TP: 24 -- TN: 14 -- FP: 2 -- FN: 35 F1 0.564706
+[Threshold:0.875]
+===> TP: 22 -- TN: 14 -- FP: 2 -- FN: 37 F1 0.530120
+[Threshold:0.88]
+===> TP: 22 -- TN: 14 -- FP: 2 -- FN: 37 F1 0.530120
+[Threshold:0.885]
+===> TP: 21 -- TN: 14 -- FP: 2 -- FN: 38 F1 0.512195
+[Threshold:0.89]
+===> TP: 21 -- TN: 14 -- FP: 2 -- FN: 38 F1 0.512195
+[Threshold:0.895]
+===> TP: 21 -- TN: 16 -- FP: 0 -- FN: 38 F1 0.525000
+[Threshold:0.9]
+===> TP: 19 -- TN: 16 -- FP: 0 -- FN: 40 F1 0.487179
+[Threshold:0.905]
+===> TP: 19 -- TN: 16 -- FP: 0 -- FN: 40 F1 0.487179
+[Threshold:0.91]
+===> TP: 18 -- TN: 16 -- FP: 0 -- FN: 41 F1 0.467532
+[Threshold:0.915]
+===> TP: 16 -- TN: 16 -- FP: 0 -- FN: 43 F1 0.426667
+[Threshold:0.92]
+===> TP: 14 -- TN: 16 -- FP: 0 -- FN: 45 F1 0.383562
+[Threshold:0.925]
+===> TP: 13 -- TN: 16 -- FP: 0 -- FN: 46 F1 0.361111
+[Threshold:0.93]
+===> TP: 13 -- TN: 16 -- FP: 0 -- FN: 46 F1 0.361111
+[Threshold:0.935]
+===> TP: 13 -- TN: 16 -- FP: 0 -- FN: 46 F1 0.361111
+[Threshold:0.94]
+===> TP: 12 -- TN: 16 -- FP: 0 -- FN: 47 F1 0.338028
+[Threshold:0.945]
+===> TP: 11 -- TN: 16 -- FP: 0 -- FN: 48 F1 0.314286
+[Threshold:0.95]
+===> TP: 10 -- TN: 16 -- FP: 0 -- FN: 49 F1 0.289855
+[Threshold:0.955]
+===> TP: 8 -- TN: 16 -- FP: 0 -- FN: 51 F1 0.238806
+[Threshold:0.96]
+===> TP: 7 -- TN: 16 -- FP: 0 -- FN: 52 F1 0.212121
+[Threshold:0.965]
+===> TP: 6 -- TN: 16 -- FP: 0 -- FN: 53 F1 0.184615
+[Threshold:0.97]
+===> TP: 3 -- TN: 16 -- FP: 0 -- FN: 56 F1 0.096774
+[Threshold:0.975]
+===> TP: 2 -- TN: 16 -- FP: 0 -- FN: 57 F1 0.065574
+[Threshold:0.98]
+===> TP: 2 -- TN: 16 -- FP: 0 -- FN: 57 F1 0.065574
+[Threshold:0.985]
+===> TP: 1 -- TN: 16 -- FP: 0 -- FN: 58 F1 0.033333
+[Threshold:0.99]
+===> TP: 1 -- TN: 16 -- FP: 0 -- FN: 58 F1 0.033333
+[Threshold:0.995]
+===> TP: 1 -- TN: 16 -- FP: 0 -- FN: 58 F1 0.033333
+real positive: 59, real negative: 16
+positive: 48, negative: 27
+Accuracy: 0.746667 -- Precision: 0.916667 -- Recall: 0.745763 -- F1: 0.822430 -- AUC: 0.762712
+Accuracy: 0.746667 -- Precision: 0.916667 -- Recall: 0.745763 -- F1: 0.822430 -- AUC: 0.762712
+====================================================================================================
+Evaluating...
+====================================================================================================
+real positive: 109, real negative: 30
+positive: 35, negative: 104
+Accuracy: 0.438849 -- Precision: 0.942857 -- Recall: 0.302752 -- F1: 0.458333 -- AUC: 0.705199
+Accuracy: 0.438849 -- Precision: 0.942857 -- Recall: 0.302752 -- F1: 0.458333 -- AUC: 0.705199
