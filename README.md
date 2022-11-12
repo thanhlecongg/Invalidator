@@ -1,4 +1,4 @@
-# AutoPruner
+# Invalidator
 
 This repository contains source code of research paper "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"
 
