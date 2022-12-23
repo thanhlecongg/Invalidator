@@ -3,14 +3,32 @@
 This repository contains source code of research paper "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"
 
 ## Structure
-The structure of our source code's repository is as follows:
-- data: contains our experimental data;
-- model: contains the trained model for syntactic-based classifier on our experiments;
-- src: contains our source code.
-    - classifier: contain source code for our classifiers including: semantic and syntactic classifiers
-    - feature: contains  source code for syntactic feature (CodeBERT, BERT, ODS) preparation 
-    - utils.py: contains source code for utility functions, e.g., logger, visualization, ...
-- environment.yml: contains the configuration for AutoPruner's enviroment. 
+
+```
+├── data
+│   ├── processed_data
+│   │   ├── b_invariants [containing invariant inferred by Daikon on buggy methods]
+│   │   ├── invariants [containing invariant inferred by Daikon on executed methods]
+│   │   └── *.pkl [containing features extracted from CodeBERT/BERT/ODS]
+│   ├── raw_data
+│   │   ├── ASE20_Patches [containing patches from Wang et al. "Automated Patch Correctness Assessment: How Far are We?" (ASE 2020)]
+│   │   ├── defects4j-developer [containing Defects4j developer patches]
+│   │   ├── ICSE18_Patches [containing patches from Xiong et al. "Identifying Patch Correctness in Test-Based Program Repair?" (ICSE 2018)]
+│   │   ├── ODS_features [containing extracted features from Ye et al. "Automated Classification of Overfitting Patches with Statically Extracted Code Features"]
+│   │   └── patch_info [containing information of patches in our dataset]
+├── environment.yml [the configuration for Invalidator's enviroment]
+├── experiments
+│   ├── invalidator_log [containing logs/results produced by Invalidator]
+│   ├── syntactic_classifier_log [containing logs/results produced by Synatactic-based Classifiers]
+│   └── README.md [containing instructions to replicate our results]
+├── model [containing trained syntactic classifiers]
+├── README.md [containing instructions to use Invaliator]
+├── invalidator.py [containing the main file of Invalidator]
+└── src
+    ├── classifier [containing source code for our classifier]
+    ├── feature [containing source code for our feature extractor]
+    └── utils.py [containing source code for utility functions, e.g., logger, visualization, ...]
+```
 
 ## Environment Configuration
 ### Conda
