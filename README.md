@@ -1,6 +1,21 @@
 # Invalidator
 
-This repository contains source code of research paper "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"
+This repository contains source code of research paper "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning", which is published IEEE Transactions on Software Engineering.
+
+Please cite the following article if you find Invalidator to be useful:
+
+```
+@inproceedings{le2023invalidator,
+  author={Le-Cong, Thanh and Luong, Duc-Minh and Le, Xuan Bach D. and Lo, David and Tran, Nhat-Hoa and Quang-Huy, Bui and Huynh, Quyet-Thang},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-20},
+  doi={10.1109/TSE.2023.3255177}
+}
+```
 
 ## Structure
 
