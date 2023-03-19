@@ -5,7 +5,7 @@ This repository contains source code of research paper "Invalidator: Automated P
 Please cite the following article if you find Invalidator to be useful:
 
 ```
-@inproceedings{le2023invalidator,
+@article{le2023invalidator,
   author={Le-Cong, Thanh and Luong, Duc-Minh and Le, Xuan Bach D. and Lo, David and Tran, Nhat-Hoa and Quang-Huy, Bui and Huynh, Quyet-Thang},
   journal={IEEE Transactions on Software Engineering}, 
   title={Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning}, 
