@@ -36,8 +36,18 @@ def read_info_patch(_INFO_PATH, patch):
         print(
             "Invalid patch !!! \nPlease use available patch: \n==> Patch1, ..., Patch210; \n==> HDRepair1, ..., HDRepair10"
         )  
-        
-def read_invariant(_INVARIANT_PATH, project, bug_id, patch):
+
+def read_invariant_all_info(p_inv_pass_path, p_inv_fail_path, b_inv_pass_path, b_inv_fail_path, f_inv_pass_path, f_inv_fail_path, use_z3):
+    p_inv_pass = read_invariant_with_path(p_inv_pass_path, use_z3)
+    p_inv_fail = read_invariant_with_path(p_inv_fail_path, use_z3)
+    b_inv_pass = read_invariant_with_path(b_inv_pass_path, use_z3)
+    b_inv_fail = read_invariant_with_path(b_inv_fail_path, use_z3)
+    f_inv_pass = read_invariant_with_path(f_inv_pass_path, use_z3)
+    f_inv_fail = read_invariant_with_path(f_inv_fail_path, use_z3)
+   
+    return p_inv_pass, p_inv_fail, b_inv_pass, b_inv_fail, f_inv_pass, f_inv_fail
+    
+def read_invariant(_INVARIANT_PATH, project, bug_id, patch, use_z3):
     _INVARIANT_PATCH_PASS = _INVARIANT_PATH + "patches/{}/result_passing.txt"
     _INVARIANT_BUG_PASS   = _INVARIANT_PATH + "b/{}/{}/result_passing.txt"
     _INVARIANT_FIX_PASS   = _INVARIANT_PATH + "f/{}/{}/result_passing.txt"
@@ -45,20 +55,20 @@ def read_invariant(_INVARIANT_PATH, project, bug_id, patch):
     _INVARIANT_BUG_FAIL   = _INVARIANT_PATH + "b/{}/{}/result_failing.txt"
     _INVARIANT_FIX_FAIL   = _INVARIANT_PATH + "f/{}/{}/result_failing.txt"
     p_inv_pass = read_invariant_with_path(
-        _INVARIANT_PATCH_PASS.format(patch))
+        _INVARIANT_PATCH_PASS.format(patch), use_z3)
     p_inv_fail = read_invariant_with_path(
-        _INVARIANT_PATCH_FAIL.format(patch))
+        _INVARIANT_PATCH_FAIL.format(patch), use_z3)
     b_inv_pass = read_invariant_with_path(
-        _INVARIANT_BUG_PASS.format(project, bug_id))
+        _INVARIANT_BUG_PASS.format(project, bug_id), use_z3)
     b_inv_fail = read_invariant_with_path(
-        _INVARIANT_BUG_FAIL.format(project, bug_id))
+        _INVARIANT_BUG_FAIL.format(project, bug_id), use_z3)
     f_inv_pass = read_invariant_with_path(
-        _INVARIANT_FIX_PASS.format(project, bug_id))
+        _INVARIANT_FIX_PASS.format(project, bug_id), use_z3)
     f_inv_fail = read_invariant_with_path(
-        _INVARIANT_FIX_FAIL.format(project, bug_id))
+        _INVARIANT_FIX_FAIL.format(project, bug_id), use_z3)
     return p_inv_pass, p_inv_fail, b_inv_pass, b_inv_fail, f_inv_pass, f_inv_fail
 
-def read_invariant_with_path(path):
+def read_invariant_with_path(path, use_z3):
     data = {}
     if os.path.exists(path):
         with open(path, "r") as f:
@@ -85,7 +95,10 @@ def read_invariant_with_path(path):
                 else:
                     if is_start:
                         data[current_key].append(line.strip())
-    return format_dict(data)
+    if use_z3:
+        return format_dict(data)
+    else:
+        return data
 
 def get_method_name_with_exit(string):
     index = 0

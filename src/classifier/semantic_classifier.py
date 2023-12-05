@@ -46,13 +46,15 @@ def overfitting_1(patch_inv, error_beha):
     return False
 
 def overfitting_2(patch_inv, correct_spec):
-    print("VIOLATE CORRECt:")
+    print("VIOLATE CORRECT:")
     score = 0
     for program_point in patch_inv:
         if program_point in correct_spec:
             for inv in correct_spec[program_point]:
                if inv not in patch_inv[program_point]:
                    if inv != "Exiting Daikon.":
+                       print(program_point + ": \t")
+                       print(inv)
                        score += 1
 
     if score > 0:

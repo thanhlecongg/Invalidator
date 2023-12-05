@@ -58,7 +58,7 @@ conda activate invalidator
 ## 🚀 Usage
 To use our tool, please use the following command
 ```
-python3 -m invalidator.py --c [classifier: 0: semantic, 1: syntactic, 2:combine]
+python3 experiment.py --c [classifier: 0: semantic, 1: syntactic, 2:combine]
                           --T [threshold of syntactic classifier] 
 ```
 - Option "--c": Invalidator provide three option for classifier including:
