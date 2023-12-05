@@ -55,8 +55,8 @@ source /opt/conda/bin/activate
 conda activate invalidator
 ```
 
-## 🚀 Usage
-To use our tool, please use the following command
+## 🚀 Replication
+To replicate the results in our paper, please use the following command
 ```
 python3 experiment.py --c [classifier: 0: semantic, 1: syntactic, 2:combine]
                           --T [threshold of syntactic classifier] 
@@ -69,6 +69,12 @@ python3 experiment.py --c [classifier: 0: semantic, 1: syntactic, 2:combine]
  - Option "--T": This option define the classification threshold for our syntactic classifier
     - By default, this option is set as 0.975;
     - Users can change this threshold depeding on their purpose.
+
+## 🚀 Usage
+To use our tool, please use the following command to get more instructions:
+```
+python3 invalidator.py --help 
+```
 
 ## 📜 Citation
 Please cite the following article if you find Invalidator to be useful:
