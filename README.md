@@ -1,23 +1,18 @@
-# Invalidator
+# ⚙️ Invalidator ✂️
+*by Thanh Le-Cong, Duc-Minh Luong, Xuan-Bach D. Le, David Lo, Nhat-Hoa Tran, Quang-Huy Bui, Quyet Thang Huynh*
 
 This repository contains source code of research paper "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning", which is published IEEE Transactions on Software Engineering.
 
-Please cite the following article if you find Invalidator to be useful:
+<p align="center">
+    <a href="https://ieeexplore.ieee.org/document/10066209"><img src="https://img.shields.io/badge/Journal-IEEE TSE Volume 49 (2023)-green?style=for-the-badge">
+    <a href="https://arxiv.org/pdf/2301.01113.pdf"><img src="https://img.shields.io/badge/arXiv-2301.01113-b31b1b.svg?style=for-the-badge">
+    <br>
+</p>
 
-```
-@article{le2023invalidator,
-  author={Le-Cong, Thanh and Luong, Duc-Minh and Le, Xuan Bach D. and Lo, David and Tran, Nhat-Hoa and Quang-Huy, Bui and Huynh, Quyet-Thang},
-  journal={IEEE Transactions on Software Engineering}, 
-  title={Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-20},
-  doi={10.1109/TSE.2023.3255177}
-}
-```
-
-## Structure
+## 📃 Overview
+If you are interested in our work, please refer to our [overview](https://github.com/thanhlecongg/Invalidator/overview.md) for more details.
+      
+## 🏁 Repository Organization
 
 ```
 ├── data
@@ -45,7 +40,7 @@ Please cite the following article if you find Invalidator to be useful:
     └── utils.py [containing source code for utility functions, e.g., logger, visualization, ...]
 ```
 
-## Environment Configuration
+## 🔧 Installations
 ### Conda
 ```
 conda env create -f environment.yml
@@ -60,7 +55,7 @@ source /opt/conda/bin/activate
 conda activate invalidator
 ```
 
-## Usage
+## 🚀 Usage
 To use our tool, please use the following command
 ```
 python3 -m invalidator.py --c [classifier: 0: semantic, 1: syntactic, 2:combine]
@@ -74,3 +69,19 @@ python3 -m invalidator.py --c [classifier: 0: semantic, 1: syntactic, 2:combine]
  - Option "--T": This option define the classification threshold for our syntactic classifier
     - By default, this option is set as 0.975;
     - Users can change this threshold depeding on their purpose.
+
+## 📜 Citation
+Please cite the following article if you find Invalidator to be useful:
+
+```
+@article{le2023invalidator,
+  author={Le-Cong, Thanh and Luong, Duc-Minh and Le, Xuan Bach D. and Lo, David and Tran, Nhat-Hoa and Quang-Huy, Bui and Huynh, Quyet-Thang},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-20},
+  doi={10.1109/TSE.2023.3255177}
+}
+```
