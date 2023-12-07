@@ -10,7 +10,7 @@ This repository contains source code of research paper "Invalidator: Automated P
 </p>
 
 ## 📃 Overview
-If you are interested in our work, please refer to our [overview](https://github.com/thanhlecongg/Invalidator/overview.md) for more details.
+If you are interested in our work, please refer to our [overview](https://github.com/thanhlecongg/Invalidator/blob/main/overview.md) for more details.
       
 ## 🏁 Repository Organization
 
